@@ -27,7 +27,7 @@ spec:
         run: fishyfish-fish
     spec:
       containers:
-      - image: registry.tr0:5000/fishyfishfish:0.1
+      - image: registry.tr0:5000/fishyfishfish:1.2
         imagePullPolicy: IfNotPresent
         name: fishyfish-fish
         ports:
